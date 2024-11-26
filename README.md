@@ -1,44 +1,21 @@
-ode Scaffolding
-Angular CLI provides several commands to help you scaffold and generate components, services, pipes, etc.
+# YechatLanding
 
-To generate a new component:
+YechatLanding is a web application built with Angular CLI version 17.1.1. This project provides a clean and interactive landing page, and it's ready for further customization and extension.
 
-bash
-Copy code
-ng generate component component-name
-You can also generate other features like directives, pipes, services, classes, guards, interfaces, enums, and modules using the following syntax:
+## 🚀 Getting Started
 
-bash
-Copy code
-ng generate directive|pipe|service|class|guard|interface|enum|module
-📦 Build
-To build the project for production, run the following command:
+Follow these instructions to get the development server running on your local machine.
 
-bash
-Copy code
-ng build
-The build artifacts will be stored in the dist/ directory.
-This command will prepare your application for deployment by optimizing the files for production.
+### Prerequisites
 
-🧪 Running Unit Tests
-To execute the unit tests for your project, run:
+Before starting, ensure you have the following installed:
 
-bash
-Copy code
-ng test
-This will run the tests via Karma.
-🚀 Running End-to-End Tests
-To execute end-to-end tests, run:
+- **Node.js**: [Install Node.js](https://nodejs.org/)
+- **Angular CLI**: [Install Angular CLI](https://angular.io/cli)
 
-bash
-Copy code
-ng e2e
-You will need to add a package that implements end-to-end testing capabilities.
-📚 Further Help
-For additional help with Angular CLI, you can use:
+### Development Server
 
-bash
-Copy code
-ng help
-For more detailed information, check out the Angular CLI Overview and Command Reference.
+To run the development server, use the following command:
 
+```bash
+ng serve
